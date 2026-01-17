@@ -87,7 +87,6 @@ export async function submitContactForm(
         <p>Best regards,</p>
         <p>The ${siteConfig.name} Team</p>
         <hr>
-        <p><small>${siteConfig.address.street}, ${siteConfig.address.city}, ${siteConfig.address.province} ${siteConfig.address.postalCode}</small></p>
         <p><small>Phone: ${siteConfig.phone} | Email: ${siteConfig.email}</small></p>
       `,
     });

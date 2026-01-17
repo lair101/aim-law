@@ -2,7 +2,7 @@
 
 import Image from "next/image"
 import { useTranslations } from 'next-intl'
-import { Mail, Phone, MapPin } from "lucide-react"
+import { Mail, Phone } from "lucide-react"
 import { Link } from "@/i18n/routing"
 import { siteConfig, footerContent } from "@/config/site-content"
 
@@ -76,13 +76,6 @@ export function Footer() {
           <div>
             <h3 className="font-playfair text-lg font-semibold mb-4">{t('footer.contactUs')}</h3>
             <ul className="space-y-4">
-              <li className="flex items-start gap-3">
-                <MapPin className="h-5 w-5 text-slate-400 flex-shrink-0 mt-0.5" />
-                <span className="text-slate-300 text-sm">
-                  {siteConfig.address.street}<br />
-                  {siteConfig.address.city}, {siteConfig.address.province} {siteConfig.address.postalCode}
-                </span>
-              </li>
               <li>
                 <a href={`tel:${siteConfig.phone.replace(/[^0-9]/g, "")}`} className="flex items-center gap-3 text-slate-300 hover:text-white transition-colors">
                   <Phone className="h-5 w-5 text-slate-400 flex-shrink-0" />

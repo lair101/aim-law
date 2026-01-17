@@ -6,13 +6,6 @@ export const siteConfig = {
   description: "AIM Law provides expert legal services in Immigration, Family Law, Small Claims, Landlord & Tenant, and Notary Public services across Canada.",
   phone: "(778) 865-3090",
   email: "info@aim-law.ca",
-  address: {
-    street: "123 Legal Street, Suite 400",
-    city: "Toronto",
-    province: "ON",
-    postalCode: "M5V 1A1",
-    country: "Canada"
-  },
   hours: "Monday - Friday: 9:00 AM - 5:00 PM",
   social: {
     linkedin: "https://linkedin.com/company/aim-law",

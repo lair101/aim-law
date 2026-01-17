@@ -90,14 +90,6 @@ export default async function LocaleLayout({ children, params }: Props) {
               url: siteConfig.url,
               telephone: siteConfig.phone,
               email: siteConfig.email,
-              address: {
-                "@type": "PostalAddress",
-                streetAddress: siteConfig.address.street,
-                addressLocality: siteConfig.address.city,
-                addressRegion: siteConfig.address.province,
-                postalCode: siteConfig.address.postalCode,
-                addressCountry: siteConfig.address.country,
-              },
               areaServed: {
                 "@type": "Country",
                 name: "Canada",

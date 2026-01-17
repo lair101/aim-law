@@ -43,9 +43,13 @@
           "title": "商业移民",
           "description": "为希望在加拿大创业的投资者、企业家和自雇人士提供的项目。"
         },
-        "categoryBased": {
-          "title": "类别选拔",
-          "description": "针对特定技能的快速通道抽选，如STEM、医疗保健、技术工人和法语能力。"
+        "judicialReview": {
+          "title": "司法审查",
+          "description": "联邦法院对移民和难民决定的审查，包括拒签申请和保护申请的上诉。"
+        },
+        "immigrationAppeals": {
+          "title": "移民上诉",
+          "description": "向移民上诉庭（IAD）提出的上诉，包括担保拒签、驱逐令和居住义务决定的上诉。"
         },
         "familySponsorship": {
           "title": "家庭团聚担保",
@@ -70,6 +74,10 @@
         "citizenship": {
           "title": "加拿大公民身份",
           "description": "公民身份申请、入籍考试准备和入籍仪式指导。"
+        },
+        "prCardRenewal": {
+          "title": "枫叶卡续签",
+          "description": "永久居民卡续签、补办和旅行证件申请。"
         }
       }
     },
@@ -182,6 +190,60 @@
   "language": {
     "en": "English",
     "zh": "中文"
+  },
+  "privacy": {
+    "title": "隐私政策",
+    "subtitle": "我们如何收集、使用和保护您的个人信息。",
+    "intro": "Aim Law Professional Corporation（以下简称「我们」）致力于保护您的隐私。本隐私政策说明了当您访问我们的网站 aim-law.ca（以下简称「网站」）时，我们如何收集、使用、披露和保护您的信息。",
+    "informationWeCollect": {
+      "title": "我们收集的信息",
+      "content": "当您填写联系表格、请求咨询、订阅我们的通讯或与我们沟通时，我们可能会收集您自愿提供的个人信息。这可能包括您的姓名、电子邮件地址、电话号码以及您选择提供的任何其他信息。"
+    },
+    "howWeUse": {
+      "title": "我们如何使用您的信息",
+      "content": "我们可能会使用收集的信息来回复您的询问、提供法律服务、向您发送有关我们服务的信息、改进我们的网站以及遵守法律义务。"
+    },
+    "dataSecurity": {
+      "title": "数据安全",
+      "content": "我们采取适当的技术和组织安全措施来保护您的个人信息。但是，互联网传输的任何方法都不是100%安全的，我们无法保证绝对的安全性。"
+    },
+    "yourRights": {
+      "title": "您的权利",
+      "content": "根据您所在的位置，您可能对您的个人信息拥有某些权利，包括访问、更正或删除您的信息的权利。如需行使这些权利，请与我们联系。"
+    },
+    "contactUs": {
+      "title": "联系我们",
+      "content": "如果您对本隐私政策或我们的隐私做法有任何疑问，请"
+    },
+    "contactLink": "联系我们",
+    "lastUpdated": "最后更新：2025年1月"
+  },
+  "terms": {
+    "title": "免责声明与使用条款",
+    "subtitle": "使用我们的网站前请仔细阅读这些条款。",
+    "intro": "欢迎访问 Aim Law Professional Corporation 的网站（以下简称「网站」）。访问或使用本网站即表示您同意受以下条款和条件（以下简称「使用条款」）的约束。",
+    "generalUse": {
+      "title": "一般使用和接受",
+      "content": "本「使用条款协议」是您与 Aim Law Professional Corporation 及其关联方（以下简称「Aim Law」）之间的法律文件，后者是 aim-law.ca 网站及其所有内容的所有者和运营者，除非另有说明。"
+    },
+    "noLegalAdvice": {
+      "title": "不构成法律建议",
+      "content": "Aim Law Professional Corporation 提供的网站仅供参考。本网站所包含的信息不构成法律建议，也不能作为法律建议使用。"
+    },
+    "noLawyerClient": {
+      "title": "不建立律师-客户关系",
+      "content": "请注意，本网站上信息的呈现，或您对此类信息的使用或依赖，不会在您与 Aim Law Professional Corporation 或其任何专业人员之间建立律师-客户关系。"
+    },
+    "privacyPolicy": {
+      "title": "隐私政策",
+      "content": "Aim Law Professional Corporation 将根据其"
+    },
+    "privacyLink": "隐私政策",
+    "governingLaw": {
+      "title": "管辖法律和司法管辖权",
+      "content": "本网站由 Aim Law Professional Corporation 从其位于加拿大不列颠哥伦比亚省的办公室运营。访问或使用本网站即表示您同意，与您访问或使用本网站及其内容相关的所有事项均受不列颠哥伦比亚省法律和加拿大联邦法律的管辖。"
+    },
+    "lastUpdated": "最后更新：2025年1月"
   }
 }
 

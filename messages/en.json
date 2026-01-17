@@ -43,9 +43,13 @@
           "title": "Business Immigration",
           "description": "Programs for investors, entrepreneurs, and self-employed individuals looking to establish in Canada."
         },
-        "categoryBased": {
-          "title": "Category-Based Selection",
-          "description": "Express Entry draws targeting specific skills like STEM, healthcare, trades, and French language proficiency."
+        "judicialReview": {
+          "title": "Judicial Review",
+          "description": "Federal Court review of immigration and refugee decisions, including appeals of refused applications and protection claims."
+        },
+        "immigrationAppeals": {
+          "title": "Immigration Appeals",
+          "description": "Appeals to the Immigration Appeal Division (IAD) including sponsorship refusals, removal orders, and residency obligation decisions."
         },
         "familySponsorship": {
           "title": "Family Class Sponsorship",
@@ -70,6 +74,10 @@
         "citizenship": {
           "title": "Canadian Citizenship",
           "description": "Citizenship applications, test preparation, and ceremony guidance."
+        },
+        "prCardRenewal": {
+          "title": "PR Card Renewal",
+          "description": "Permanent resident card renewals, replacements, and travel document applications."
         }
       }
     },
@@ -182,6 +190,60 @@
   "language": {
     "en": "English",
     "zh": "中文"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "subtitle": "How we collect, use, and protect your personal information.",
+    "intro": "Aim Law Professional Corporation (\"we\", \"us\", or \"our\") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website aim-law.ca (the \"Website\").",
+    "informationWeCollect": {
+      "title": "Information We Collect",
+      "content": "We may collect personal information that you voluntarily provide to us when you fill out a contact form, request a consultation, subscribe to our newsletter, or communicate with us. This may include your name, email address, phone number, and any other information you choose to provide."
+    },
+    "howWeUse": {
+      "title": "How We Use Your Information",
+      "content": "We may use the information we collect to respond to your inquiries, provide legal services, send you information about our services, improve our Website, and comply with legal obligations."
+    },
+    "dataSecurity": {
+      "title": "Data Security",
+      "content": "We implement appropriate technical and organizational security measures to protect your personal information. However, no method of transmission over the Internet is 100% secure, and we cannot guarantee absolute security."
+    },
+    "yourRights": {
+      "title": "Your Rights",
+      "content": "Depending on your location, you may have certain rights regarding your personal information, including the right to access, correct, or delete your information. To exercise these rights, please contact us."
+    },
+    "contactUs": {
+      "title": "Contact Us",
+      "content": "If you have any questions about this Privacy Policy or our privacy practices, please"
+    },
+    "contactLink": "contact us",
+    "lastUpdated": "Last Updated: January 2025"
+  },
+  "terms": {
+    "title": "Disclaimer & Terms of Use",
+    "subtitle": "Please read these terms carefully before using our website.",
+    "intro": "Welcome to Aim Law Professional Corporation's website (the \"Website\"). By accessing or using the Website, you agree to be bound by the following terms and conditions (the \"Terms of Use\").",
+    "generalUse": {
+      "title": "General Use and Acceptance",
+      "content": "This \"Terms of Use Agreement\" is a legal document between you and Aim Law Professional Corporation and its associates (\"Aim Law Professional Corporation\"), who are the owners and operators of aim-law.ca including all content on the Website, unless stated otherwise."
+    },
+    "noLegalAdvice": {
+      "title": "No Legal Advice Given",
+      "content": "The Website provided by Aim Law Professional Corporation is intended solely for informational purposes. The information contained on the Site is not meant to serve as legal advice, and it cannot be used as such."
+    },
+    "noLawyerClient": {
+      "title": "No Lawyer-Client Relationship Established",
+      "content": "Please note that the presentation of information on this Website or your use of, or reliance upon such information does not create a lawyer-client relationship between you and Aim Law Professional Corporation or any of its professionals."
+    },
+    "privacyPolicy": {
+      "title": "Privacy Policy",
+      "content": "Aim Law Professional Corporation will treat any personal information that you submit through this Website according to its"
+    },
+    "privacyLink": "Privacy Policy",
+    "governingLaw": {
+      "title": "Governing Law and Jurisdiction",
+      "content": "The Website is operated by Aim Law Professional Corporation from its offices in the Province of British Columbia, Canada. By accessing or using the Website, you agree that all matters relating to your access to or use of the Website and its Content shall be governed by the laws of the Province of British Columbia and the federal laws of Canada."
+    },
+    "lastUpdated": "Last Updated: January 2025"
   }
 }
 

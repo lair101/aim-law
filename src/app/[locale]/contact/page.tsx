@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { useTranslations } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
-import { MapPin, Phone, Mail, Clock } from "lucide-react";
+import { Phone, Mail, Clock } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { ContactForm } from "@/components/ContactForm";
 import { siteConfig } from "@/config/site-content";
@@ -50,19 +50,6 @@ export default function ContactPage() {
             <div className="lg:col-span-1">
               <Card className="border-slate-200 sticky top-24">
                 <CardContent className="p-6 space-y-6">
-                  <div className="flex items-start gap-4">
-                    <div className="w-10 h-10 rounded-lg bg-[#1B2D4F]/10 flex items-center justify-center flex-shrink-0">
-                      <MapPin className="h-5 w-5 text-[#1B2D4F]" />
-                    </div>
-                    <div>
-                      <h3 className="font-semibold text-slate-900 mb-1">{t('contact.address')}</h3>
-                      <p className="text-slate-600 text-sm">
-                        {siteConfig.address.street}<br />
-                        {siteConfig.address.city}, {siteConfig.address.province} {siteConfig.address.postalCode}
-                      </p>
-                    </div>
-                  </div>
-
                   <div className="flex items-start gap-4">
                     <div className="w-10 h-10 rounded-lg bg-[#1B2D4F]/10 flex items-center justify-center flex-shrink-0">
                       <Phone className="h-5 w-5 text-[#1B2D4F]" />

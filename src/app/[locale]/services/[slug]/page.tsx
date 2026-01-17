@@ -13,7 +13,7 @@ const iconMap: Record<string, React.ElementType> = {
 };
 
 const services = [
-  { id: 'immigration', key: 'immigration', icon: 'Globe', areaKeys: ['expressEntry', 'pnp', 'business', 'categoryBased', 'familySponsorship', 'humanitarian', 'workPermits', 'studyPermits', 'visitorVisas', 'citizenship'] },
+  { id: 'immigration', key: 'immigration', icon: 'Globe', areaKeys: ['judicialReview', 'immigrationAppeals', 'expressEntry', 'pnp', 'business', 'familySponsorship', 'humanitarian', 'workPermits', 'studyPermits', 'visitorVisas', 'citizenship', 'prCardRenewal'] },
   { id: 'family-law', key: 'familyLaw', icon: 'Heart', areaKeys: ['divorce', 'custody', 'support', 'agreements'] },
   { id: 'small-claims', key: 'smallClaims', icon: 'Scale', areaKeys: ['debtRecovery', 'contractDisputes', 'propertyDamage', 'consumerDisputes'] },
   { id: 'landlord-tenant', key: 'landlordTenant', icon: 'Home', areaKeys: ['ltb', 'eviction', 'lease', 'rent'] },
