@@ -1,15 +1,31 @@
 "use client"
 
-import Link from "next/link"
 import Image from "next/image"
 import { useState } from "react"
-import { Menu, X, Phone } from "lucide-react"
+import { useLocale, useTranslations } from 'next-intl'
+import { Menu, X, Phone, Globe } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import { navigationLinks, siteConfig } from "@/config/site-content"
+import { Link, usePathname, useRouter } from "@/i18n/routing"
+import { siteConfig } from "@/config/site-content"
 import { cn } from "@/lib/utils"
+
+const navKeys = [
+  { key: 'home', href: '/' },
+  { key: 'about', href: '/about' },
+  { key: 'services', href: '/services' },
+  { key: 'contact', href: '/contact' },
+] as const;
 
 export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const t = useTranslations()
+  const locale = useLocale()
+  const router = useRouter()
+  const pathname = usePathname()
+
+  const switchLocale = (newLocale: 'en' | 'zh') => {
+    router.replace(pathname, { locale: newLocale })
+  }
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-[#1B2D4F]/10 bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/80">
@@ -27,19 +43,28 @@ export function Header() {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-8">
-          {navigationLinks.map((link) => (
+          {navKeys.map((item) => (
             <Link
-              key={link.href}
-              href={link.href}
+              key={item.href}
+              href={item.href}
               className="text-sm font-medium text-slate-700 hover:text-[#1B2D4F] transition-colors"
             >
-              {link.name}
+              {t(`nav.${item.key}`)}
             </Link>
           ))}
         </nav>
 
         {/* Desktop CTA */}
         <div className="hidden md:flex items-center gap-4">
+          {/* Language Switcher */}
+          <button
+            onClick={() => switchLocale(locale === 'en' ? 'zh' : 'en')}
+            className="flex items-center gap-1.5 text-sm font-medium text-slate-700 hover:text-[#1B2D4F] transition-colors px-2 py-1 rounded-md hover:bg-slate-100"
+            aria-label="Switch language"
+          >
+            <Globe className="h-4 w-4" />
+            {locale === 'en' ? '中文' : 'EN'}
+          </button>
           <a
             href={`tel:${siteConfig.phone.replace(/[^0-9]/g, "")}`}
             className="flex items-center gap-2 text-sm font-medium text-slate-700 hover:text-[#1B2D4F]"
@@ -48,7 +73,7 @@ export function Header() {
             {siteConfig.phone}
           </a>
           <Button asChild>
-            <Link href="/contact">Free Consultation</Link>
+            <Link href="/contact">{t('header.bookConsultation')}</Link>
           </Button>
         </div>
 
@@ -67,21 +92,32 @@ export function Header() {
       <div
         className={cn(
           "md:hidden overflow-hidden transition-all duration-300 ease-in-out",
-          mobileMenuOpen ? "max-h-96" : "max-h-0"
+          mobileMenuOpen ? "max-h-[500px]" : "max-h-0"
         )}
       >
         <nav className="flex flex-col gap-4 px-4 py-6 bg-white border-t border-[#1B2D4F]/10">
-          {navigationLinks.map((link) => (
+          {navKeys.map((item) => (
             <Link
-              key={link.href}
-              href={link.href}
+              key={item.href}
+              href={item.href}
               className="text-base font-medium text-slate-700 hover:text-[#1B2D4F]"
               onClick={() => setMobileMenuOpen(false)}
             >
-              {link.name}
+              {t(`nav.${item.key}`)}
             </Link>
           ))}
           <div className="flex flex-col gap-3 pt-4 border-t border-slate-200">
+            {/* Mobile Language Switcher */}
+            <button
+              onClick={() => {
+                switchLocale(locale === 'en' ? 'zh' : 'en')
+                setMobileMenuOpen(false)
+              }}
+              className="flex items-center gap-2 text-base font-medium text-slate-700 hover:text-[#1B2D4F]"
+            >
+              <Globe className="h-5 w-5" />
+              {locale === 'en' ? '切换到中文' : 'Switch to English'}
+            </button>
             <a
               href={`tel:${siteConfig.phone.replace(/[^0-9]/g, "")}`}
               className="flex items-center gap-2 text-base font-medium text-slate-700"
@@ -90,7 +126,7 @@ export function Header() {
               {siteConfig.phone}
             </a>
             <Button asChild className="w-full">
-              <Link href="/contact">Free Consultation</Link>
+              <Link href="/contact">{t('header.bookConsultation')}</Link>
             </Button>
           </div>
         </nav>

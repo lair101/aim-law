@@ -1,0 +1,187 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "header": {
+    "bookConsultation": "Book a Consultation"
+  },
+  "hero": {
+    "headline": "Strategic Legal Solutions for Your Future",
+    "subheadline": "AIM Law delivers expert guidance in Immigration, Family Law, Small Claims, Landlord & Tenant matters, and Notary Public services.",
+    "scheduleConsultation": "Schedule a Consultation",
+    "ourServices": "Our Services"
+  },
+  "services": {
+    "title": "Our Services",
+    "headline": "Comprehensive Legal Solutions",
+    "description": "AIM Law offers a full range of legal services designed to meet your needs. From immigration matters to family disputes, we're here to help.",
+    "learnMore": "Learn More",
+    "viewAll": "View All Services",
+    "backToServices": "Back to Services",
+    "ourServicesIn": "Our {service} Services",
+    "needHelp": "Need Help With {service}?",
+    "needLegalAssistance": "Need Legal Assistance?",
+    "contactUsToday": "Contact us today to discuss your case. Our experienced team is ready to provide the guidance you need.",
+    "scheduleConsultation": "Our experienced legal team is ready to assist you. Schedule a consultation to discuss your case.",
+    "immigration": {
+      "title": "Immigration Law",
+      "shortDescription": "Navigate Canada's immigration system with confidence.",
+      "description": "Our immigration practice helps individuals and families achieve their Canadian dreams. We provide expert guidance through all stages of the immigration process, including economic immigration, family sponsorship, humanitarian programs, and temporary stays.",
+      "areas": {
+        "expressEntry": {
+          "title": "Express Entry",
+          "description": "Federal Skilled Worker Program (FSWP), Federal Skilled Trades Program (FSTP), and Canadian Experience Class (CEC)."
+        },
+        "pnp": {
+          "title": "Provincial Nominee Program (PNP)",
+          "description": "Provincial nominations for candidates with skills needed in specific regions, including Quebec programs."
+        },
+        "business": {
+          "title": "Business Immigration",
+          "description": "Programs for investors, entrepreneurs, and self-employed individuals looking to establish in Canada."
+        },
+        "categoryBased": {
+          "title": "Category-Based Selection",
+          "description": "Express Entry draws targeting specific skills like STEM, healthcare, trades, and French language proficiency."
+        },
+        "familySponsorship": {
+          "title": "Family Class Sponsorship",
+          "description": "Sponsor spouses, partners, children, parents, grandparents, and other eligible relatives for permanent residence."
+        },
+        "humanitarian": {
+          "title": "Humanitarian & Refugee Programs",
+          "description": "Protection for individuals seeking asylum in Canada and refugee claimant support."
+        },
+        "workPermits": {
+          "title": "Work Permits",
+          "description": "Temporary work permits including LMIA-based permits, open work permits, and employer-specific permits."
+        },
+        "studyPermits": {
+          "title": "Study Permits",
+          "description": "Permits for international students, post-graduation work permits, and study extensions."
+        },
+        "visitorVisas": {
+          "title": "Visitor Visas",
+          "description": "Temporary resident visas for tourism, family visits, business trips, and super visas for parents/grandparents."
+        },
+        "citizenship": {
+          "title": "Canadian Citizenship",
+          "description": "Citizenship applications, test preparation, and ceremony guidance."
+        }
+      }
+    },
+    "familyLaw": {
+      "title": "Family Law",
+      "shortDescription": "Compassionate support through life's transitions.",
+      "description": "We provide sensitive, skilled representation in all family law matters, helping you navigate difficult times with dignity and clarity.",
+      "areas": {
+        "divorce": { "title": "Divorce & Separation", "description": "Contested and uncontested divorce proceedings." },
+        "custody": { "title": "Child Custody & Access", "description": "Parenting arrangements and custody agreements." },
+        "support": { "title": "Child & Spousal Support", "description": "Fair support calculations and enforcement." },
+        "agreements": { "title": "Domestic Agreements", "description": "Prenuptial, cohabitation, and separation agreements." }
+      }
+    },
+    "smallClaims": {
+      "title": "Small Claims",
+      "shortDescription": "Effective resolution for civil disputes.",
+      "description": "We represent clients in Small Claims Court, helping resolve disputes efficiently and cost-effectively.",
+      "areas": {
+        "debtRecovery": { "title": "Debt Recovery", "description": "Collection of outstanding debts and unpaid invoices." },
+        "contractDisputes": { "title": "Contract Disputes", "description": "Breach of contract claims and defenses." },
+        "propertyDamage": { "title": "Property Damage", "description": "Claims for damage to personal or real property." },
+        "consumerDisputes": { "title": "Consumer Disputes", "description": "Issues with goods, services, or warranties." }
+      }
+    },
+    "landlordTenant": {
+      "title": "Landlord & Tenant",
+      "shortDescription": "Protecting your rights in rental matters.",
+      "description": "Whether you're a landlord or tenant, we provide expert guidance on residential tenancy issues and represent clients before the Landlord and Tenant Board.",
+      "areas": {
+        "ltb": { "title": "LTB Proceedings", "description": "Representation at Landlord and Tenant Board hearings." },
+        "eviction": { "title": "Eviction Matters", "description": "Eviction applications and defenses." },
+        "lease": { "title": "Lease Agreements", "description": "Drafting and reviewing residential lease agreements." },
+        "rent": { "title": "Rent Disputes", "description": "Rent arrears, increases, and above-guideline applications." }
+      }
+    },
+    "notaryPublic": {
+      "title": "Notary Public",
+      "shortDescription": "Professional document authentication services.",
+      "description": "Our notary public services ensure your documents are properly authenticated and legally valid.",
+      "areas": {
+        "affidavits": { "title": "Affidavits & Declarations", "description": "Sworn statements and statutory declarations." },
+        "certifiedCopies": { "title": "Certified Copies", "description": "Certification of document copies." },
+        "authentication": { "title": "Document Authentication", "description": "Notarization for domestic and international use." },
+        "witness": { "title": "Witness Services", "description": "Professional witnessing of signatures." }
+      }
+    }
+  },
+  "about": {
+    "title": "About AIM Law",
+    "headline": "Committed to Your Legal Success",
+    "description": "At AIM Law, we understand that navigating the legal system can be complex and overwhelming. Our dedicated team of legal professionals is committed to providing personalized, strategic solutions tailored to your unique situation.",
+    "mission": "Our mission is to deliver accessible, professional legal services that empower our clients to achieve their goals. Whether you're starting a new chapter in Canada, resolving family matters, or protecting your rights as a landlord or tenant, AIM Law is your trusted partner.",
+    "ourValues": "Our Values",
+    "readyToWork": "Ready to Work With Us?",
+    "contactTeam": "Contact our team today to schedule a consultation and learn how we can help you with your legal needs.",
+    "scheduleConsultation": "Schedule a Consultation",
+    "values": {
+      "integrity": { "title": "Integrity", "description": "We uphold the highest ethical standards in all our dealings." },
+      "excellence": { "title": "Excellence", "description": "We strive for exceptional results in every case we handle." },
+      "accessibility": { "title": "Accessibility", "description": "We make quality legal services available to everyone." },
+      "clientFocused": { "title": "Client-Focused", "description": "Your needs and goals drive everything we do." }
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "headline": "Get in Touch",
+    "description": "Ready to discuss your legal needs? Contact AIM Law today for a consultation. We're here to help you navigate your legal journey.",
+    "sendMessage": "Send Us a Message",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "officeHours": "Office Hours",
+    "form": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "phone": "Phone",
+      "serviceArea": "Service Area",
+      "selectService": "Select a service area",
+      "message": "Message",
+      "howCanWeHelp": "How can we help you?",
+      "consent": "I consent to receive electronic communications from AIM Law regarding my inquiry and related legal services. I understand I can withdraw my consent at any time.",
+      "submit": "Send Message",
+      "submitting": "Sending...",
+      "success": "Thank you for your message. We will get back to you soon.",
+      "error": "There was an error sending your message. Please try again."
+    }
+  },
+  "footer": {
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "contactUs": "Contact Us",
+    "termsOfUse": "Terms of Use",
+    "privacyPolicy": "Privacy Policy",
+    "description": "AIM Law provides expert legal services in Immigration, Family Law, Small Claims, Landlord & Tenant, and Notary Public services.",
+    "disclaimer": "The information on this website is for general informational purposes only and does not constitute legal advice. Please consult with a qualified legal professional for advice regarding your specific situation."
+  },
+  "common": {
+    "bookConsultation": "Book a Consultation",
+    "readyToStart": "Ready to Get Started?",
+    "scheduleConsultation": "Schedule a consultation with our experienced legal team today.",
+    "whyChooseUs": "Why Choose AIM Law?",
+    "whyChooseUsItems": {
+      "expertise": { "title": "Expert Knowledge", "description": "Years of experience in Canadian law." },
+      "personalized": { "title": "Personalized Service", "description": "Tailored solutions for your unique situation." },
+      "accessible": { "title": "Accessible Support", "description": "Clear communication every step of the way." }
+    }
+  },
+  "language": {
+    "en": "English",
+    "zh": "中文"
+  }
+}
+

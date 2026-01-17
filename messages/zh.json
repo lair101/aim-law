@@ -1,0 +1,187 @@
+{
+  "nav": {
+    "home": "首页",
+    "about": "关于我们",
+    "services": "服务项目",
+    "contact": "联系我们"
+  },
+  "header": {
+    "bookConsultation": "预约咨询"
+  },
+  "hero": {
+    "headline": "为您的未来提供战略性法律解决方案",
+    "subheadline": "AIM律师事务所为您提供移民法、家庭法、小额索赔法庭、房东与租客事务以及公证服务方面的专业指导。",
+    "scheduleConsultation": "预约咨询",
+    "ourServices": "我们的服务"
+  },
+  "services": {
+    "title": "服务项目",
+    "headline": "全面的法律解决方案",
+    "description": "AIM律师事务所提供全方位的法律服务，满足您的各种需求。无论是移民事务还是家庭纠纷，我们都能为您提供帮助。",
+    "learnMore": "了解更多",
+    "viewAll": "查看所有服务",
+    "backToServices": "返回服务列表",
+    "ourServicesIn": "我们的{service}服务",
+    "needHelp": "需要{service}方面的帮助？",
+    "needLegalAssistance": "需要法律援助？",
+    "contactUsToday": "立即联系我们讨论您的案件。我们经验丰富的团队随时准备为您提供所需的指导。",
+    "scheduleConsultation": "我们经验丰富的法律团队随时准备为您提供帮助。预约咨询讨论您的案件。",
+    "immigration": {
+      "title": "移民法",
+      "shortDescription": "自信地应对加拿大移民系统。",
+      "description": "我们的移民业务帮助个人和家庭实现加拿大梦。我们在移民过程的各个阶段提供专业指导，包括经济类移民、家庭团聚、人道主义项目和临时居留。",
+      "areas": {
+        "expressEntry": {
+          "title": "快速通道 (Express Entry)",
+          "description": "联邦技术移民项目 (FSWP)、联邦技工移民项目 (FSTP) 和加拿大经验类移民 (CEC)。"
+        },
+        "pnp": {
+          "title": "省提名项目 (PNP)",
+          "description": "各省对拥有特定地区所需技能的候选人的提名，包括魁北克项目。"
+        },
+        "business": {
+          "title": "商业移民",
+          "description": "为希望在加拿大创业的投资者、企业家和自雇人士提供的项目。"
+        },
+        "categoryBased": {
+          "title": "类别选拔",
+          "description": "针对特定技能的快速通道抽选，如STEM、医疗保健、技术工人和法语能力。"
+        },
+        "familySponsorship": {
+          "title": "家庭团聚担保",
+          "description": "担保配偶、伴侣、子女、父母、祖父母及其他符合条件的亲属获得永久居留权。"
+        },
+        "humanitarian": {
+          "title": "人道主义与难民项目",
+          "description": "为在加拿大寻求庇护的个人提供保护和难民申请人支持。"
+        },
+        "workPermits": {
+          "title": "工作签证",
+          "description": "临时工作许可，包括LMIA工签、开放式工签和雇主特定工签。"
+        },
+        "studyPermits": {
+          "title": "学习签证",
+          "description": "国际学生签证、毕业后工作签证和学签延期。"
+        },
+        "visitorVisas": {
+          "title": "访客签证",
+          "description": "旅游、探亲、商务访问的临时居民签证，以及父母/祖父母超级签证。"
+        },
+        "citizenship": {
+          "title": "加拿大公民身份",
+          "description": "公民身份申请、入籍考试准备和入籍仪式指导。"
+        }
+      }
+    },
+    "familyLaw": {
+      "title": "家庭法",
+      "shortDescription": "在人生转折期给予温暖的支持。",
+      "description": "我们在所有家庭法事务中提供敏感、专业的代理服务，帮助您有尊严、清晰地度过困难时期。",
+      "areas": {
+        "divorce": { "title": "离婚与分居", "description": "有争议和无争议的离婚程序。" },
+        "custody": { "title": "子女抚养权与探视权", "description": "育儿安排和抚养权协议。" },
+        "support": { "title": "子女与配偶赡养费", "description": "公平的赡养费计算和执行。" },
+        "agreements": { "title": "家庭协议", "description": "婚前协议、同居协议和分居协议。" }
+      }
+    },
+    "smallClaims": {
+      "title": "小额索赔法庭",
+      "shortDescription": "有效解决民事纠纷。",
+      "description": "我们在小额索赔法庭代理客户，帮助高效、经济地解决纠纷。",
+      "areas": {
+        "debtRecovery": { "title": "债务追讨", "description": "催收未偿债务和未付发票。" },
+        "contractDisputes": { "title": "合同纠纷", "description": "违约索赔和抗辩。" },
+        "propertyDamage": { "title": "财产损害", "description": "个人或不动产损害索赔。" },
+        "consumerDisputes": { "title": "消费者纠纷", "description": "商品、服务或保修问题。" }
+      }
+    },
+    "landlordTenant": {
+      "title": "房东与租客",
+      "shortDescription": "保护您在租赁事务中的权益。",
+      "description": "无论您是房东还是租客，我们都为您提供住宅租赁问题的专业指导，并在房东与租客委员会代理客户。",
+      "areas": {
+        "ltb": { "title": "LTB听证会", "description": "在房东与租客委员会听证会上的代理。" },
+        "eviction": { "title": "驱逐事务", "description": "驱逐申请和抗辩。" },
+        "lease": { "title": "租赁协议", "description": "起草和审查住宅租赁协议。" },
+        "rent": { "title": "租金纠纷", "description": "租金拖欠、涨租和超指导线涨租申请。" }
+      }
+    },
+    "notaryPublic": {
+      "title": "公证服务",
+      "shortDescription": "专业的文件认证服务。",
+      "description": "我们的公证服务确保您的文件得到正确认证并具有法律效力。",
+      "areas": {
+        "affidavits": { "title": "宣誓书与声明", "description": "宣誓陈述和法定声明。" },
+        "certifiedCopies": { "title": "认证副本", "description": "文件副本的认证。" },
+        "authentication": { "title": "文件认证", "description": "国内和国际使用的公证。" },
+        "witness": { "title": "见证服务", "description": "专业的签名见证。" }
+      }
+    }
+  },
+  "about": {
+    "title": "关于AIM律师事务所",
+    "headline": "致力于您的法律成功",
+    "description": "在AIM律师事务所，我们理解在法律系统中导航可能既复杂又令人困惑。我们专业的法律团队致力于提供针对您独特情况的个性化、战略性解决方案。",
+    "mission": "我们的使命是提供可及、专业的法律服务，帮助客户实现目标。无论您是在加拿大开始新的篇章、解决家庭问题，还是保护您作为房东或租客的权益，AIM律师事务所都是您值得信赖的伙伴。",
+    "ourValues": "我们的价值观",
+    "readyToWork": "准备好与我们合作了吗？",
+    "contactTeam": "立即联系我们的团队预约咨询，了解我们如何帮助您满足法律需求。",
+    "scheduleConsultation": "预约咨询",
+    "values": {
+      "integrity": { "title": "诚信", "description": "我们在所有事务中坚持最高的道德标准。" },
+      "excellence": { "title": "卓越", "description": "我们努力在每个案件中取得卓越的成果。" },
+      "accessibility": { "title": "可及性", "description": "我们让每个人都能获得优质的法律服务。" },
+      "clientFocused": { "title": "以客户为中心", "description": "您的需求和目标驱动我们所做的一切。" }
+    }
+  },
+  "contact": {
+    "title": "联系我们",
+    "headline": "与我们联系",
+    "description": "准备好讨论您的法律需求了吗？立即联系AIM律师事务所进行咨询。我们随时准备帮助您完成法律旅程。",
+    "sendMessage": "发送消息",
+    "address": "地址",
+    "phone": "电话",
+    "email": "电子邮件",
+    "officeHours": "办公时间",
+    "form": {
+      "firstName": "名",
+      "lastName": "姓",
+      "email": "电子邮件",
+      "phone": "电话",
+      "serviceArea": "服务领域",
+      "selectService": "选择服务领域",
+      "message": "留言",
+      "howCanWeHelp": "我们能如何帮助您？",
+      "consent": "我同意接收AIM律师事务所关于我的咨询和相关法律服务的电子通信。我了解我可以随时撤回同意。",
+      "submit": "发送消息",
+      "submitting": "发送中...",
+      "success": "感谢您的留言。我们将尽快与您联系。",
+      "error": "发送消息时出错。请重试。"
+    }
+  },
+  "footer": {
+    "quickLinks": "快速链接",
+    "services": "服务项目",
+    "contactUs": "联系我们",
+    "termsOfUse": "使用条款",
+    "privacyPolicy": "隐私政策",
+    "description": "AIM律师事务所提供移民法、家庭法、小额索赔法庭、房东与租客事务以及公证服务方面的专业法律服务。",
+    "disclaimer": "本网站上的信息仅供一般参考，不构成法律建议。请咨询有资质的法律专业人士，获取针对您具体情况的建议。"
+  },
+  "common": {
+    "bookConsultation": "预约咨询",
+    "readyToStart": "准备好开始了吗？",
+    "scheduleConsultation": "立即预约咨询，与我们经验丰富的法律团队会面。",
+    "whyChooseUs": "为什么选择AIM律师事务所？",
+    "whyChooseUsItems": {
+      "expertise": { "title": "专业知识", "description": "多年加拿大法律经验。" },
+      "personalized": { "title": "个性化服务", "description": "为您的独特情况量身定制解决方案。" },
+      "accessible": { "title": "贴心支持", "description": "每一步都保持清晰的沟通。" }
+    }
+  },
+  "language": {
+    "en": "English",
+    "zh": "中文"
+  }
+}
+

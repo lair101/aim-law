@@ -58,14 +58,50 @@ export const servicesContent = {
       id: "immigration",
       title: "Immigration Law",
       shortDescription: "Navigate Canada's immigration system with confidence.",
-      description: "Our immigration practice helps individuals and families achieve their Canadian dreams. We provide expert guidance through all stages of the immigration process.",
+      description: "Our immigration practice helps individuals and families achieve their Canadian dreams. We provide expert guidance through all stages of the immigration process, including economic immigration, family sponsorship, humanitarian programs, and temporary stays.",
       icon: "Globe",
       href: "/services/immigration",
       areas: [
-        { title: "Visitor & Work Visas", description: "Temporary resident permits, work permits, and visa extensions." },
-        { title: "Permanent Residence", description: "Express Entry, Provincial Nominee Programs, and family sponsorship." },
-        { title: "Canadian Citizenship", description: "Citizenship applications, test preparation, and ceremony guidance." },
-        { title: "Family Sponsorship", description: "Sponsor your spouse, children, parents, or grandparents." }
+        {
+          title: "Express Entry",
+          description: "Federal Skilled Worker Program (FSWP), Federal Skilled Trades Program (FSTP), and Canadian Experience Class (CEC)."
+        },
+        {
+          title: "Provincial Nominee Program (PNP)",
+          description: "Provincial nominations for candidates with skills needed in specific regions, including Quebec programs."
+        },
+        {
+          title: "Business Immigration",
+          description: "Programs for investors, entrepreneurs, and self-employed individuals looking to establish in Canada."
+        },
+        {
+          title: "Category-Based Selection",
+          description: "Express Entry draws targeting specific skills like STEM, healthcare, trades, and French language proficiency."
+        },
+        {
+          title: "Family Class Sponsorship",
+          description: "Sponsor spouses, partners, children, parents, grandparents, and other eligible relatives for permanent residence."
+        },
+        {
+          title: "Humanitarian & Refugee Programs",
+          description: "Protection for individuals seeking asylum in Canada and refugee claimant support."
+        },
+        {
+          title: "Work Permits",
+          description: "Temporary work permits including LMIA-based permits, open work permits, and employer-specific permits."
+        },
+        {
+          title: "Study Permits",
+          description: "Permits for international students, post-graduation work permits, and study extensions."
+        },
+        {
+          title: "Visitor Visas",
+          description: "Temporary resident visas for tourism, family visits, business trips, and super visas for parents/grandparents."
+        },
+        {
+          title: "Canadian Citizenship",
+          description: "Citizenship applications, test preparation, and ceremony guidance."
+        }
       ]
     },
     {
